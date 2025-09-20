@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Nombre de tu Juego - Sitio Oficial</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Estilos.css">
+    <style>
+        body {
+            background-color: #1a1a1a; /* Un fondo un poco más oscuro que el de Bootstrap */
+        }
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x1080/222222/808080?text=PON+TU+IMAGEN+DE+FONDO+AQUÍ') no-repeat center center;
+            background-size: cover;
+            padding: 100px 0;
+            color: white;
+        }
+        .section-title {
+            margin-bottom: 3rem;
+            font-weight: bold;
+            color: #0d6efd; /* Un color de acento */
+        }
+        .card {
+            border: 1px solid #444;
+            background-color: #2c2c2c;
+        }
+        .footer-custom {
+            background-color: #212529;
+            padding: 40px 0;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Dimensional Strikers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre el Juego</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#devs">Desarrolladores</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero text-center">
+        <div class="container">
+            <img src="./Arte/Logo.jpg" alt="Logo del Juego" class="img-fluid mb-4 rounded-circle" style="max-width: 150px;">
+            
+            <h1 class="display-3 fw-bold">Dimensional Strikers</h1>
+            <p class="lead fs-4 mb-4">La cancha es el planeta, el premio la galaxia</p>
+            
+            <a href="#" class="btn btn-primary btn-lg m-2">Ver Tráiler</a>
+            <a href="#" class="btn btn-outline-light btn-lg m-2">Descargar Demo</a>
+        </div>
+    </header>
+
+    <main class="container my-5">
+
+        <section id="about" class="my-5">
+            <h2 class="text-center section-title">SOBRE EL JUEGO</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="Arte/Boceto Glucs.jpg" alt="Arte del Juego" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-6">
+                    <h3>Una Aventura Inolvidable</h3>
+                    <p class="text-white">Los aliens llegaron ya! y quisieron jugar futbol! Sin embargo tienen caracteristicas diferentes a los humanos y tecnologia muy avanzada!</p>
+                    <ul class="list-unstyled">
+                        <li><i class="bi bi-check-circle-fill text-primary"></i> <strong>Multiples especies </strong>Elige al que mas te llame la atencion y prueba sus habilidades</li>
+                        <li><i class="bi bi-check-circle-fill text-primary"></i> <strong>Cuanto poder te imagines</strong> ¿te preocupan los contrincantes? no pasa nada, con la tecnologia siempre podremos traerlos de vuelta</li>
+                        <li><i class="bi bi-check-circle-fill text-primary"></i> <strong>Explora escenarios nunca imaginados </strong> El hogar de una criatura tan curiosa es igual de sorprendente, y los lugares que han podido visitar hasta mas!, date una vuelta</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="my-5">
+            <h2 class="text-center section-title">GALERÍA</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="Arte/Escenario.jpg" class="img-fluid rounded shadow" alt="Captura de pantalla 1">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="Arte/Pyrrons.png" class="img-fluid rounded shadow" alt="Captura de pantalla 2">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="Arte/Mechrons.png" class="img-fluid rounded shadow" alt="Captura de pantalla 3">
+                </div>
+            </div>
+        </section>
+        
+        <section id="devs" class="my-5 text-center">
+            <h2 class="text-center section-title">EL EQUIPO</h2>
+            <p class="lead mb-4 text-white">Somos un pequeño equipo apasionado por crear experiencias únicas.</p>
+            <div class="row justify-content-center">
+                 <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="Arte/xd.jpg" class="card-img-top" alt="Miembro 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Jona</h5>
+                            <p class="card-text text-white-50">Programador</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="Arte/xd2.jpg" class="card-img-top" alt="Miembro 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Isadoblec</h5>
+                            <p class="card-text text-white-50">Co Programador</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img src="https://services.meteored.com/img/article/universo-pode-estar-desacelerando-segundo-novas-observacoes-de-galaxias-1712261219743_1280.png" class="card-img-top" alt="Miembro 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Yuridia</h5>
+                            <p class="card-text text-white-50">Artista</p>
+                        </div>
+                    </div>
+                 </div>
+                 </div>
+        </section>
+
+    </main>
+
+    <footer class="footer-custom text-center">
+        <div class="container">
+            <p><strong>Dimensional Strikers</strong></p>
+            <div class="social-icons fs-3">
+                <a href="#" class="text-white me-3"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+            </div>
+            <p class="mt-3 mb-0">&copy; 2025 Dimensional Strikers. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
